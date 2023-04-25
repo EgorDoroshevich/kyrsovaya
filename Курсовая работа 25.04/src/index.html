@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/index.scss">
+    
+    <title>Document</title>
+</head> 
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+               ToDo
+            </div>
+            <div class="logotip">
+                today I create my future
+            </div>
+            <div class="datanow"></div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-container">
+        <div class="container">
+            <div class="maketodo">
+              Make ToDo
+            <button class="link fa-sharp fa-solid fa-circle-plus ">
+            </button>
+            </div>
+            
+            <div class="progress">
+              in progress 
+            </div>
+            <div class="done">
+             Done
+            </div>
+        </div>
+
+        <div class="total">
+            <div class="total__tittle">
+                <div class="total__count">Total:</div>
+                <div class="total-crad-make"></div>
+            </div>
+            <div class="total__tittle">
+                <div class="total__count">Total:</div>
+                <div class="total-crad-progress"></div>
+            </div>
+           <div class="total__tittle">
+            <div class="total__count">Total:</div>
+            <div class="total-crad-done"></div>
+           </div>
+        </div>
+
+        <div class="main__out">
+          <div class="out__logo"></div>
+           <div class="out__text"></div>
+            <div class="out__name"></div>
+</div>
+    </div>
+</div>
+    <div  class="result">
+        <div class="make" id="make"></div>
+        <div class="inprogress" id="inprogress"></div>
+        <div class="finishdone"></div>
+    </div>
+ 
+ 
+ 
+<form>
+<div class="popup" id="popup" >
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="" class="popup__close">X</a>
+
+                <div class="popup__topic">
+                    <label>Тема вашего обращения</label>
+              <div class="popup__error">
+                <input placeholder="Введите тему" type="text" class="popup__input" data-logotip="true" id="logoUser">
+                </div>  
+                    <div class="popup__card__data"></div>
+                </div>
+                <div class="popup__textatea">
+                    <label>Описание вашего обращения</label>
+                    <textarea placeholder="Введите описание"  name="" id="textUser" cols="100%" rows="10%" class="textarea"></textarea>
+                    <div class="textar"></div>
+                </div>
+
+                <div class="popup__author">
+                    <label>Введите ваше имя </label><br>
+                  <div class="author__name__tittle">
+                    <input placeholder="Введите ваше имя" data-newname = "true" type="text" id="nameUser" class="popup__input">
+                  </div>  
+                  <div class="author__name"></div>
+                    <div class="popup__save">
+                    <button class="btn__author">SAVE</button>
+                   </div>
+                </div> 
+        </div>
+    </div>
+</div>
+</form>
+
+
+
+
+   
+  
+  
+   
+   <script src="./js/app.js" type="module" ></script>
+   <script src="https://kit.fontawesome.com/5542da864f.js" crossorigin="anonymous"></script>
+</body>
+</html>
